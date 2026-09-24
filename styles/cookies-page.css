@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    font-family: "Courier New", "Lucida Console", monospace;
+}
+
+.main-frame {
+    text-align:center;
+}
+
+#main-title {
+    background-color:rgba(241, 98, 98, 0.91);
+    padding: 10px;
+    font-size: 80px;
+}
+
+#home-link {
+    font-size: 45px;
+}
+
+.description,
+.ingredients,
+.steps {
+    padding: 30px;
+    font-size: 25px;
+}
+
+.description,
+.ingredients,
+.steps,
+#main-title {
+    width: 800px;
+    margin: 15px auto;
+    border-width: 10px;
+}
+
+
+.description {
+    background-color: rgb(135, 207, 235, 0.6);
+}
+
+.ingredients {
+    background-color: rgb(255, 152, 255, 0.35);
+}
+
+.steps {
+    background-color: bisque;
+}
+
+li {
+    padding: 7px;
+}
+
